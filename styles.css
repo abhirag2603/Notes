@@ -1,0 +1,156 @@
+body {
+margin:0;
+padding:0;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Poppins', sans-serif;
+/* background-color: #8BAAAD; */
+background-image: url("back2.jpg");
+background-size: cover;
+
+}
+
+.h3{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #262525;
+    color: #FDE8E9;
+    font-size:0.9em;
+    user-select: none; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.logo{
+    width: 20px;
+    object-fit: contain;
+    margin-left: 2em;
+}
+.title{
+    display:flex;
+    gap: 0.1em;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.navbar ul li a{
+    color: #FDE8E9;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+
+}
+
+.dropdown{
+    display: none;
+}
+
+.contact:hover ~ .dropdown{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #262525;
+    margin-top: 31px;
+    padding: 0;
+    margin-right: 10px;
+    
+}
+
+.contact:hover ~ .dropdown ul{
+    display: block;
+    margin: 1px 0 0 0;
+    padding: 0;
+
+}
+
+.contact:hover ~ .dropdown ul li{
+    padding: 10px 10px;
+    margin:0 20px 0 0;
+    text-decoration: underline;
+    
+}
+
+.mainbody{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+textarea{
+    resize: none;
+    border: #262525 solid 2px;
+    border-radius: 8px;
+    width: 400px;
+    height: 200px;
+    font-family: inherit;
+    font-weight: bolder;
+    background-color: #262525;
+    color: #FDE8E9;
+    
+}
+
+.addnote{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1.2em;
+    
+}
+
+#btn{
+    width: 80px;
+    background-color: #262525;
+    color: #FDE8E9;
+    border: #FDE8E9 solid 2px;
+    border-radius: 8px;
+    font-family: inherit;
+    padding: 5px 5px;
+    transition: all 70ms ease;
+    cursor: pointer;
+}
+
+#btn:hover{
+    scale: 1.05;
+}
+
+#notelist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+#notelist div{
+    border: #262525 solid 2px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: bolder;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+    background-color: #262525;
+    color: #FDE8E9;
+    
+}
