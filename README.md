@@ -6,7 +6,7 @@ This is a simple notes app built with HTML, CSS, JavaScript, and Firebase. It al
 
 
 ## Features
-- **CRUD Operations**: Users can create, read, update, and delete notes.
+-   Users can create, read and delete notes.
 - **Realtime Updates**: Any changes made to notes are instantly synced across devices.
 - **Responsive Design**: The app is responsive and works well on different screen sizes.
 
