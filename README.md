@@ -2,6 +2,7 @@
 
 This is a simple notes app built with HTML, CSS, JavaScript, and Firebase. It allows users to create, read, update, and delete notes. The app uses Firebase Realtime Database for data storage.
 
+![Screenshot](notesSS.png)
 
 
 ## Features
